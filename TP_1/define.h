@@ -1,10 +1,6 @@
 #ifndef DEFINE_H_INCLUDED
 #define DEFINE_H_INCLUDED
 
-
-
-#endif
-
 #define FLAG_NULL       0x00
 #define FLAG_OPERAND_1  0x01
 #define FLAG_OPERAND_2  0x02
@@ -35,3 +31,5 @@
 
 #define MAX_BUF         0xFF
 */
+
+#endif
