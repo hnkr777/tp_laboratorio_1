@@ -6,7 +6,7 @@
 #endif
 
 
-int menu(int op1, int op2, char flag);
+int menu(int operand1, int operand2, char flag);
 int loadOperator();
-void showOperation(int op1, int op2, char flag);
+void showOperation(int operand1, int operand2, char flag);
 
