@@ -1,6 +1,6 @@
-#ifndef FUNCIONES_H_INCLUDED
-#define FUNCIONES_H_INCLUDED
-#endif
+#ifndef FUNCIONES_H
+#define FUNCIONES_H
+
 
 
 #include "funciones.c"
@@ -12,3 +12,4 @@ int division(int operand1, int operand2);
 int factorial(int operand1);
 
 
+#endif
