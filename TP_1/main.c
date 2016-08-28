@@ -86,12 +86,12 @@ int main(int args, char** argsv){
 */
 
 int loadOperator(void){
-	char* tmp; // variable temporal donde almacenar el ingreso por teclado
+	char tmp[MAX_BUF]; // variable temporal donde almacenar el ingreso por teclado
 	system("cls");
 	printf("\n Ingrese un entero: ");
-	scanf("%6s", tmp); // se usa char* en vez de int para evitar overflow o datos indeseados
+	scanf("%6s", &tmp); // se usa char* en vez de int para evitar overflow o datos indeseados
 
-	return atoi(tmp);
+	return atoi(&tmp[0]);
 }
 
 /**
