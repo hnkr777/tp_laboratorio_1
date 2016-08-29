@@ -20,12 +20,12 @@ int main(int args, char** argsv){
 	char flag;      // bandera binaria
 	int operand1;   // primer operando
 	int operand2;   // segundo operando
-    int option;     // opcion de menu
+	int option;     // opcion de menu
 
-    flag = FLAG_NULL;
-    operand1 = 1;
-    operand2 = 1;
-    option = 0;
+	flag = FLAG_NULL;
+	operand1 = 1;
+	operand2 = 1;
+	option = 0;
 
     do{
         option = menu(operand1, operand2, flag);
@@ -33,16 +33,20 @@ int main(int args, char** argsv){
         switch(option){
             case 1:
                 operand1 = loadOperator();
-				if(flag==FLAG_NULL) flag=FLAG_OPERAND_1;
-				if(flag==FLAG_OPERAND_2) flag=FLAG_OPERANDS;
-				flag = flag&FLAG_OPERANDS;
+		if(flag==FLAG_NULL) 
+			flag=FLAG_OPERAND_1;
+		if(flag==FLAG_OPERAND_2) 
+			flag=FLAG_OPERANDS;
+		flag = flag&FLAG_OPERANDS;
                 break;
 
             case 2:
                 operand2 = loadOperator();
-				if(flag==FLAG_NULL) flag=FLAG_OPERAND_2;
-				if(flag==FLAG_OPERAND_1) flag=FLAG_OPERANDS;
-				flag = flag&FLAG_OPERANDS;
+		if(flag==FLAG_NULL) 
+			flag=FLAG_OPERAND_2;
+		if(flag==FLAG_OPERAND_1) 
+			flag=FLAG_OPERANDS;
+		flag = flag&FLAG_OPERANDS;
                 break;
 
             case 3:
@@ -69,9 +73,9 @@ int main(int args, char** argsv){
             	showOperation(operand1, operand2, flag|FLAG_MENU_ALL);
                 break;
 
-            case 9:
+            /*case 9:
                 option = 9;
-                break;
+                break;*/
         }
     }while(option!=9);
 
