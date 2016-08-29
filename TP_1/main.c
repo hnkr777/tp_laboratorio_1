@@ -23,55 +23,59 @@ int main(int args, char** argsv){
 	int operand2 = 1;       // segundo operando
 	int option = 0;         // opcion de menu
 
-    do{
-        option = menu(operand1, operand2, flag);
+	do{
+		option = menu(operand1, operand2, flag);
 
-        switch(option){
-            case 1:
-                operand1 = loadOperator();
-				if(flag==FLAG_NULL)
+		switch(option){
+        		case 1:
+				operand1 = loadOperator();
+				if(flag==FLAG_NULL){
 					flag=FLAG_OPERAND_1;
-				if(flag==FLAG_OPERAND_2)
+				}
+				if(flag==FLAG_OPERAND_2){
 					flag=FLAG_OPERANDS;
+				}
 				flag = flag&FLAG_OPERANDS;
-                break;
-
-            case 2:
-                operand2 = loadOperator();
-				if(flag==FLAG_NULL)
-					flag=FLAG_OPERAND_2;
-				if(flag==FLAG_OPERAND_1)
-					flag=FLAG_OPERANDS;
-				flag = flag&FLAG_OPERANDS;
-                break;
-
-            case 3:
-            	showOperation(operand1, operand2, flag|FLAG_MENU_3);
-                break;
-
-            case 4:
-            	showOperation(operand1, operand2, flag|FLAG_MENU_4);
-                break;
-
-            case 5:
-            	showOperation(operand1, operand2, flag|FLAG_MENU_5);
-                break;
-
-            case 6:
-            	showOperation(operand1, operand2, flag|FLAG_MENU_6);
-                break;
-
-            case 7:
-            	showOperation(operand1, 0, flag|FLAG_MENU_7);
 				break;
 
-            case 8:
-            	showOperation(operand1, operand2, flag|FLAG_MENU_ALL);
-                break;
-        }
-    }while(option!=9);
+			case 2:
+				operand2 = loadOperator();
+				if(flag==FLAG_NULL){
+					flag=FLAG_OPERAND_2;
+				}
+				if(flag==FLAG_OPERAND_1){
+					flag=FLAG_OPERANDS;
+				}
+				flag = flag&FLAG_OPERANDS;
+				break;
 
-    return 0;
+			case 3:
+				showOperation(operand1, operand2, flag|FLAG_MENU_3);
+				break;
+
+			case 4:
+				showOperation(operand1, operand2, flag|FLAG_MENU_4);
+				break;
+
+			case 5:
+				showOperation(operand1, operand2, flag|FLAG_MENU_5);
+				break;
+
+			case 6:
+				showOperation(operand1, operand2, flag|FLAG_MENU_6);
+				break;
+
+			case 7:
+				showOperation(operand1, 0, flag|FLAG_MENU_7);
+				break;
+
+			case 8:
+				showOperation(operand1, operand2, flag|FLAG_MENU_ALL);
+				break;
+		}
+	}while(option!=9);
+
+	return 0;
 }
 
 /**
