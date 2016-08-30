@@ -1,5 +1,9 @@
-#ifndef DEFINE_H_INCLUDED
-#define DEFINE_H_INCLUDED
+#ifndef DEFINE_H
+#define DEFINE_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 #define FLAG_NULL       0x00
 #define FLAG_OPERAND_1  0x01
@@ -32,4 +36,4 @@
 #define MAX_BUF         0xFF
 */
 
-#endif
+#endif // DEFINE_H
