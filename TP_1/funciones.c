@@ -1,9 +1,11 @@
+#include "define.h"
+#include "funciones.h"
 
 /**
-* \brief Suma los dos parametros de entrada y retorna el resultado
-* \param operand1 int Es el primer operando a ser sumado
-* \param operand2 int Es el segundo operando a ser sumado
-* \return int El resultado de la suma de los dos operandos
+*Â \briefÂ Suma los dos parametros de entrada y retorna el resultado
+*Â \paramÂ operand1 int Es el primer operando a ser sumado
+*Â \paramÂ operand2 int Es el segundo operando a ser sumado
+*Â \returnÂ int ElÂ resultado de la suma de los dos operandos
 *
 */
 
@@ -12,10 +14,10 @@ int addition(int operand1, int operand2){
 }
 
 /**
-* \brief Realiza una resta entre los dos parametros de entrada y retorna el resultado
-* \param operand1 int Es el primer operando al cual se le resta el segundo, o minuendo
-* \param operand2 int Es el segundo operando el cual se resta del primero, o sustraendo
-* \return int Retorna el resultado de la resta entre los dos operandos, o diferencia
+*Â \briefÂ Realiza una resta entre los dos parametros de entrada y retorna el resultado
+*Â \paramÂ operand1 int Es el primer operando al cual se le resta el segundo, o minuendo
+*Â \paramÂ operand2 int Es el segundo operando el cual se resta del primero, o sustraendo
+*Â \returnÂ int Retorna elÂ resultado de la resta entre los dos operandos, o diferencia
 *
 */
 
@@ -24,10 +26,10 @@ int subtraction(int operand1, int operand2){
 }
 
 /**
-* \brief Multiplica los dos parametros de entrada y retorna el resultado
-* \param operand1 int Es el primer operando a ser multiplicado
-* \param operand2 int Es el segundo operando a ser multiplicado
-* \return int El resultado de la multiplicacion entre los dos operandos, o producto
+*Â \briefÂ Multiplica los dos parametros de entrada y retorna el resultado
+*Â \paramÂ operand1 int Es el primer operando a ser multiplicado
+*Â \paramÂ operand2 int Es el segundo operando a ser multiplicado
+*Â \returnÂ int ElÂ resultado de la multiplicacion entre los dos operandos, o producto
 *
 */
 
@@ -36,11 +38,11 @@ int multiplication(int operand1, int operand2){
 }
 
 /**
-* \brief Divide los dos parametros de entrada y retorna el resultado, en caso de ser cero
+*Â \briefÂ Divide los dos parametros de entrada y retorna el resultado, en caso de ser cero
 *        informa del error por consola y retorna cero
-* \param operand1 int Es el primer operando o dividendo
-* \param operand2 int Es el segundo operando o divisor
-* \return int Devuelve el resultado de la division entre los dos operandos, o cociente
+*Â \paramÂ operand1 int Es el primer operando o dividendo
+*Â \paramÂ operand2 int Es el segundo operando o divisor
+*Â \returnÂ int Devuelve elÂ resultado de la division entre los dos operandos, o cociente
 *
 */
 
@@ -54,10 +56,10 @@ int division(int operand1, int operand2){
 }
 
 /**
-* \brief Devuelve el resultado del factorial del operando de entrada operand1, en caso de ser cero
+*Â \briefÂ DevuelveÂ elÂ resultado del factorial del operando de entrada operand1, en caso de ser cero
 *        o negativo informa por consola del error y retorna (-1)
-* \param operand1 int Es el operando de entrada
-* \return int Devuelve el factorial del operando de entrada
+*Â \paramÂ operand1 int Es el operando de entrada
+*Â \returnÂ int Devuelve el factorial del operando de entrada
 *
 */
 
