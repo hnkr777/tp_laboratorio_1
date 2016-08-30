@@ -1,13 +1,10 @@
 
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <math.h>
+#include "define.h"
 #include "main.h"
 #include "funciones.h"
-#include "define.h"
+#include "funciones.c"
 
 /**
 * \brief Función principal, con validación y menú
