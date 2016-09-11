@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1472877078 source:c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1472870651 c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\main.h
+
+1472800887 c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1472876943 c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\functions.h
+
+1472532512 c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\funciones.c
+
+1472878535 source:c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1472539361 c:\users\fede\desktop\pen fra utn\tp 2\tp_3_cascara\functions.c
+	"./functions.h"
+
+1472416898 source:f:\tp 2\tp 2 utn.fra\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1472410630 f:\tp 2\tp 2 utn.fra\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1472413913 f:\tp 2\tp 2 utn.fra\tp_3_cascara\functions.h
+
+1472412240 source:f:\tp 2\tp 2 utn.fra\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1472411139 f:\tp 2\tp 2 utn.fra\tp_3_cascara\main.h
+
+1472686312 source:d:\honeker\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1472684996 d:\honeker\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1472658188 d:\honeker\tp_3_cascara\main.h
+
+1472658188 d:\honeker\tp_3_cascara\functions.h
+
+1472685732 source:d:\honeker\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1473626341 source:c:\users\fede\desktop\pen fra utn\tp 3\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1473629004 c:\users\fede\desktop\pen fra utn\tp 3\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1473265828 c:\users\fede\desktop\pen fra utn\tp 3\tp_3_cascara\main.h
+
+1473628950 c:\users\fede\desktop\pen fra utn\tp 3\tp_3_cascara\functions.h
+
+1473628156 source:c:\users\fede\desktop\pen fra utn\tp 3\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1473020591 source:f:\tp 3\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1473020206 f:\tp 3\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1473061146 f:\tp 3\tp_3_cascara\functions.h
+
+1473020591 source:f:\tp 3\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1473039457 f:\tp 3\tp_3_cascara\main.h
+
+1473296155 source:e:\tp_3_gg\tp_3_cascara\functions.c
+	"defines.h"
+	"functions.h"
+
+1473265828 e:\tp_3_gg\tp_3_cascara\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1473296628 e:\tp_3_gg\tp_3_cascara\functions.h
+
+1473296628 source:e:\tp_3_gg\tp_3_cascara\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1473265828 e:\tp_3_gg\tp_3_cascara\main.h
+
