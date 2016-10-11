@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1475712194 source:d:\honeker\examen\examen\functions.c
+	"defines.h"
+	"functions.h"
+
+1475710885 d:\honeker\examen\examen\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+
+1475712214 d:\honeker\examen\examen\functions.h
+
+1475712232 source:d:\honeker\examen\examen\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+
+1475022740 d:\honeker\examen\examen\main.h
+
+1476130914 source:d:\utn.fra\1 cuatrimestre\examen\main.c
+	"defines.h"
+	"main.h"
+	"functions.h"
+	"lib.h"
+
+1476123592 d:\utn.fra\1 cuatrimestre\examen\defines.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+	<time.h>
+
+1476131209 d:\utn.fra\1 cuatrimestre\examen\main.h
+
+1476134095 d:\utn.fra\1 cuatrimestre\examen\functions.h
+
+1476146030 source:d:\utn.fra\1 cuatrimestre\examen\functions.c
+	"defines.h"
+	"functions.h"
+	"lib.h"
+
+1476145857 source:d:\utn.fra\1 cuatrimestre\examen\lib.c
+	"defines.h"
+	"lib.h"
+	"functions.h"
+
+1476146382 d:\utn.fra\1 cuatrimestre\examen\lib.h
+
